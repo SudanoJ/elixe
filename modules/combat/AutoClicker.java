@@ -105,7 +105,7 @@ public class AutoClicker extends Module {
 	int clickDelay;
 	boolean breaking = false; // se ta quebrando bloco
 	boolean attacking = false; // se ta atacando
-	boolean firstClick = true; // identificar se È primeiro click depois de segurar
+	boolean firstClick = true; // identificar se √© primeiro click depois de segurar
 
 	int attackCode, useCode;
 
@@ -153,7 +153,7 @@ public class AutoClicker extends Module {
 				clickTimer.reset();
 				setNewClickDelay();
 			} else {
-				// tempo passou, d· click
+				// tempo passou, d√° click
 				try {
 					if (clickTimer.hasTimePassed(clickDelay)) {
 						attacking = true;
@@ -210,9 +210,12 @@ public class AutoClicker extends Module {
 
 	// seta novo delay pra esperar pro proximo click
 	private void setNewClickDelay() {
-		// max È o menor, pode confundir
+		// i assume this crash shouldnt happen now
+		cpsMin = Math.max(cpsMin, 1); 
+		cpsMax = Math.max(cpsMax, cpsMin); 
 		int max = 1000 / cpsMax;
 		int min = 1000 / cpsMin;
 		clickDelay = r.nextInt((min - max) + 1) + max;
+
 	}
 }

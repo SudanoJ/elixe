@@ -46,3 +46,8 @@ rápido no AltManager.
 ## Licença
 
 Sujeito à [GNU General Public License v3.0](LICENSE).
+
+## Discord
+
+Caso queira, sinta-se livre para entrar em nosso Discord, pelo link abaixo:
+https://discord.gg/aT97ksEKbs (ou https://elixe.lol/discord)

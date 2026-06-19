@@ -46,9 +46,3 @@ rápido no AltManager.
 ## Licença
 
 Sujeito à [GNU General Public License v3.0](LICENSE).
-
-## Discord
-
-Nossa comunidade, se quiser entrar. Leia o INFO antes de qualquer coisa!
-
-[![widget da comunidade](https://discord.com/api/guilds/739053636583424060/widget.png?style=shield)](https://discord.gg/F4KHWfZz4s)

@@ -76,10 +76,10 @@ public class HUD extends Module {
 		if (watermark) {
 			GL11.glPushMatrix();
 			GL11.glScalef(1.5f, 1.5f, 1.5f);
-			fr.drawStringWithShadow("elixe", 4f, 4f, accent);
+			fr.drawStringWithShadow("elixe.lol", 4f, 4f, accent);
 			GL11.glPopMatrix();
 
-			int brandWidth = (int) (fr.getStringWidth("elixe") * 1.5f);
+			int brandWidth = (int) (fr.getStringWidth("elixe.lol") * 1.5f);
 			fr.drawStringWithShadow("v" + Elixe.INSTANCE.build, 6 + brandWidth + 4, 6, 0xFFB5B5C0);
 			if (!address.isEmpty()) {
 				fr.drawStringWithShadow(address, 6, 6 + (int) (fr.FONT_HEIGHT * 1.5f) + 2, 0xFF7A7A85);

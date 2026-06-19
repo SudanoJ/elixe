@@ -297,7 +297,7 @@ public class ElixeMenu extends GuiScreen implements IElixeMenu {
 		// brand
 		GL11.glPushMatrix();
 		GL11.glScalef(1.4f, 1.4f, 1.4f);
-		mc.fontRendererObj.drawString("elixe", Math.round((GUI_X + 10) / 1.4f), Math.round((GUI_Y + 11) / 1.4f),
+		mc.fontRendererObj.drawString("elixe.lol", Math.round((GUI_X + 10) / 1.4f), Math.round((GUI_Y + 11) / 1.4f),
 				ElixeTheme.accentPacked());
 		GL11.glPopMatrix();
 		mc.fontRendererObj.drawString("v" + Elixe.INSTANCE.build, GUI_X + 11, GUI_Y + 25, 0xFF6A6A75);

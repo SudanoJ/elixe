@@ -1,23 +1,54 @@
-# Elixe
-Minecraft 1.8.9 utility modification.
+<div align="center">
 
-## License
-This project is subject to the [GNU General Public License v3.0](LICENSE). 
+<img src="elixe_logo.png" width="420" alt="Elixe">
 
-## Compiling
-We can't release the decompiled source code of Minecraft in any way. Because of that, this repository only contains files added post decompilation. Although we don't have a proper manual, if you want to compile Elixe yourself, we added comments on methods (if needed) telling where you should modify external classes. 
+**Utility client gratuito e open-source para Minecraft 1.8.9.**
 
-## Licensed content
+[elixe.lol](https://elixe.lol) · free · open-source
+
+</div>
+
+---
+
+## O que é
+
+**Elixe** é um utility client de Minecraft **1.8.9** focado em PvP e qualidade de vida, com um
+ClickGUI moderno (tema dark + ciano) e um conjunto enxuto de módulos bem-feitos. Esta é a versão
+**standalone** — você compila o código no seu próprio workspace decompilado do Minecraft.
+
+> **Prefere instalar como mod?** O Elixe também existe como **mod de Forge + Mixin** (instala como
+> qualquer outro mod, mais fácil) em **[SudanoJ/elixe-mod](https://github.com/SudanoJ/elixe-mod)**.
+> Use a versão que preferir.
+
+## Compilando
+
+Não é permitido distribuir o código-fonte decompilado do Minecraft de forma alguma. Por isso, este
+repositório contém **apenas os arquivos adicionados pós-decompilação**. Não há um manual formal,
+mas, se quiser compilar o Elixe você mesmo, adicionamos comentários nos métodos (quando preciso)
+indicando onde modificar as classes externas (`net.minecraft.*`).
+
+## Conteúdo licenciado / Créditos
+
 ### LiquidBounce
-[LiquidBounce](https://github.com/CCBlueX/LiquidBounce) is a free mixin-based injection hacked-client for Minecraft using Minecraft Forge. We use their [World To Screen class](https://github.com/CCBlueX/LiquidBounce/blob/master/shared/main/java/net/ccbluex/liquidbounce/utils/render/WorldToScreen.java) and [the getAngleDifference() method of RotationUtils](https://github.com/CCBlueX/LiquidBounce/blob/3f5cb5e3e65dcd3dcf12e3ae68dac33ff914f544/shared/main/java/net/ccbluex/liquidbounce/utils/RotationUtils.java#L261).
+[LiquidBounce](https://github.com/CCBlueX/LiquidBounce) é um hacked-client gratuito baseado em
+mixin pra Minecraft com Forge. Usamos a [classe World To Screen](https://github.com/CCBlueX/LiquidBounce/blob/master/shared/main/java/net/ccbluex/liquidbounce/utils/render/WorldToScreen.java)
+e [o método getAngleDifference() do RotationUtils](https://github.com/CCBlueX/LiquidBounce/blob/3f5cb5e3e65dcd3dcf12e3ae68dac33ff914f544/shared/main/java/net/ccbluex/liquidbounce/utils/RotationUtils.java#L261).
 
 ### Alpine
-[Alpine](https://github.com/ZeroMemes/Alpine) is a basic event system framework using functional interfaces. We use this framework in Elixe to make our lives easier when making event calls.
+[Alpine](https://github.com/ZeroMemes/Alpine) é um framework de event system com interfaces
+funcionais. Usamos ele no Elixe pra facilitar as chamadas de evento.
 
 ### TheAlteningAuth4j
-[TheAlteningAuth4j](https://github.com/TheAltening/TheAlteningAuth4j) is a TheAltening Auth API made by [Vladymyr](https://github.com/Vladymyr). We use this to quickly switch service types in the AltManager GUI.
+[TheAlteningAuth4j](https://github.com/TheAltening/TheAlteningAuth4j) é uma API de auth do
+TheAltening feita por [Vladymyr](https://github.com/Vladymyr). Usamos pra trocar de service type
+rápido no AltManager.
+
+## Licença
+
+Sujeito à [GNU General Public License v3.0](LICENSE).
 
 ## Discord
-Our little community if you want to join. Please read INFO before anything!
 
-[![widget for the community guild](https://discord.com/api/guilds/739053636583424060/widget.png?style=shield)](https://discord.gg/F4KHWfZz4s)
+Nossa comunidade, se quiser entrar. Leia o INFO antes de qualquer coisa!
+
+[![widget da comunidade](https://discord.com/api/guilds/739053636583424060/widget.png?style=shield)](https://discord.gg/F4KHWfZz4s)
